@@ -212,27 +212,31 @@
 					<div class="col-12">
 						<h2 class="agency__title">Digital business design agency</h2>
 					</div>
-					<div class="col-10 offset-1 col-md-8 offset-md-2 mb-2 mb-lg-0 col-lg-4 offset-lg-0">
-						<div class="agency__card">
-							<img src="img/analytics 1.svg" alt="analitics" class="agency__img">
-							<h4 class="agency__subtitle">UX & Digital Design</h4>
-							<p class="agency__text">Our skilled team of Strategists, UX-desginers and Visual Artists is dedicated to combine beauty with harmony and ease of use</p>
+					<div class="col-12 col-lg-10 offset-lg-1">
+						<div class="row">
+							<div class="col-10 offset-1 col-md-8 offset-md-2 mb-2 mb-lg-0 col-lg-4 offset-lg-0">
+								<div class="agency__card">
+									<img src="img/analytics 1.svg" alt="analitics" class="agency__img">
+									<h4 class="agency__subtitle">UX & Digital Design</h4>
+									<p class="agency__text">Our skilled team of Strategists, UX-desginers and Visual Artists is dedicated to combine beauty with harmony and ease of use</p>
+								</div>
+							</div>
+							<div class="col-10 offset-1 col-md-8 offset-md-2 mb-2 mb-lg-0 col-lg-4 offset-lg-0">
+								<div class="agency__card">
+									<img src="img/develop 1.svg" alt="developers" class="agency__img">
+									<h4 class="agency__subtitle">System Development</h4>
+									<p class="agency__text">Our inhouse frontend develpment and vast network of development teams and technical experts make sure our ptojects are delivered beautifully on time and within budget</p>
+								</div>
+							</div>
+							<div class="col-10 offset-1 col-md-8 offset-md-2 mb-2 mb-lg-0 col-lg-4 offset-lg-0">
+								<div class="agency__card">
+									<img src="img/agreement 1.svg" alt="agreement" class="agency__img">
+									<h4 class="agency__subtitle">Coaching & Teaching</h4>
+									<p class="agency__text">When we are not busy with saving our planet, we share our knowledge to help oragnizations become more effective through the use of our tools and metods</p>
+								</div>
+							</div>
 						</div>
-					</div>
-					<div class="col-10 offset-1 col-md-8 offset-md-2 mb-2 mb-lg-0 col-lg-4 offset-lg-0">
-						<div class="agency__card">
-							<img src="img/develop 1.svg" alt="developers" class="agency__img">
-							<h4 class="agency__subtitle">System Development</h4>
-							<p class="agency__text">Our inhouse frontend develpment and vast network of development teams and technical experts make sure our ptojects are delivered beautifully on time and within budget</p>
 						</div>
-					</div>
-					<div class="col-10 offset-1 col-md-8 offset-md-2 mb-2 mb-lg-0 col-lg-4 offset-lg-0">
-						<div class="agency__card">
-							<img src="img/agreement 1.svg" alt="agreement" class="agency__img">
-							<h4 class="agency__subtitle">Coaching & Teaching</h4>
-							<p class="agency__text">When we are not busy with saving our planet, we share our knowledge to help oragnizations become more effective through the use of our tools and metods</p>
-						</div>
-					</div>
 				</div>
 			</div>
 		</section>
@@ -243,7 +247,7 @@
 						<h2 class="projects__title">Digital business design projects</h2>
 					</div>
 					<div class="col-12 col-lg-10 offset-lg-1">
-						<div class="row">
+						<div class="row" id="projectsRender">
 							<div class="col-12 col-md-6 col-lg-4">
 								<div class="projects__card">
 									<img src="img/Mask Group.jpg" alt="mask">
@@ -328,7 +332,7 @@
 						</div>
 					</div>
 				</div>
-				<a href="#" class="projects__btn">see more</a>
+				<a href="#" class="projects__btn" id="seeMore">see more</a>
 			</div>
 		</section>
 		<section class="services index" id="services">
@@ -461,7 +465,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-4 d-lg-none">
+					<div class="col-10 d-lg-none">
 						<a href="#" class="how-we-do__btn desktop">Submit your project</a>
 					</div>
 				</div>
@@ -481,21 +485,21 @@
 							</div>
 							<div class="col-12 col-lg-4">
 								<ul class="how-we-do__list">
-									<li class="how-we-do__item">
+									<li class="how-we-do__item how-we-do__item--last">
 										<span class="how-we-do__dot"></span>
 										<div class="how-we-do__item-info">
 											<h6 class="how-we-do__subtitle">Clients will make informed desicions</h6>
 											<p class="how-we-do__subtext">Clients will understand the process and be able to assess the value as well as the cost in the project</p>
 										</div>
 									</li>
-									<li class="how-we-do__item">
+									<li class="how-we-do__item how-we-do__item--last">
 										<span class="how-we-do__dot"></span>
 										<div class="how-we-do__item-info">
 											<h6 class="how-we-do__subtitle">Creatives will have focus and freedom</h6>
 											<p class="how-we-do__subtext">Deisigners will be able to explore the best solutions without being held back.</p>
 										</div>
 									</li>
-									<li class="how-we-do__item">
+									<li class="how-we-do__item how-we-do__item--last">
 										<span class="how-we-do__dot"></span>
 										<div class="how-we-do__item-info">
 											<h6 class="how-we-do__subtitle">Techies will get a clear picure of the result</h6>
