@@ -193,9 +193,8 @@
 		</div>
     <section class="first-screen" id="first-screen">
       <div class="container">
-        
-				<div class="row">
-					<div class="col-12 col-md-8 offset-md-2 d-flex first-screen__block">
+				<div class="row justify-content-center align-items-center">
+					<div class="col-12 col-md-9 d-flex first-screen__block">
 						<img src="img/Emblem.svg" alt="emblem" class="first-screen__img">
 						<h1 class="first-screen__title">Digital design that makes business sense</h1>
 						<p class="first-screen__text">Whiteport is a digital business design agency commited to save the world one digital project at a time. Our methods unify strategic thinking with UX, visual design and technology to deliver innovative projects and maximize business value for our clients.</p>
@@ -481,7 +480,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="methods index" id="method">
+		<!-- <section class="methods index" id="method">
 			<div class="container">
 				<div class="row">
 					<div class="col-12 col-lg-10 offset-lg-1">
@@ -636,6 +635,34 @@
 					</li>
 				</ul>
 			</div>
+		</section> -->
+		<section class="courses" id="method">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 mb-1">
+						<h2 class="courses__title">Courses & corporate training</h2>
+					</div>
+					<div class="col-12 col-lg-8 offset-lg-2">
+						<div class="row">
+							<div class="col-12 mb-5">
+								<p class="courses__text">
+									The Whiteport method is a light weight straight forward approach to design and development of digital projects. It levels the playing field within the team and helps the client make informed desicions.
+								</p>
+							</div>
+							<div class="col-12 col-md-6 d-flex flex-column align-items-center">
+								<img src="img/2.svg" alt="hourse" class="mb-3">
+								<h6 class="courses__subtitle">Smarter client course</h6>
+								<p class="courses__subtext">In this course we share with your the secrets behind being a</p>
+							</div>
+							<div class="col-12 col-md-6 d-flex flex-column align-items-center">
+								<img src="img/2.svg" alt="hourse" class="mb-3">
+								<h6 class="courses__subtitle">Digital sketching</h6>
+								<p class="courses__subtext">Our inhouse frontend develpment and vast network of development</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
 		<section class="conversation index" id="contact">
 			<div class="container">
@@ -645,9 +672,12 @@
 					</div>
 					<div class="conversation__text-wrapper order-3 order-lg-1 col-lg-4 offset-lg-1">
 						<h6 class="conversation__subtitle">About us</h6>
-						<p class="conversation__text">
+						<p class="conversation__text conversation__text--desktop">
 							<span>Whiteport was found 2003 by Mårten Angner and has been successfully serving clients with sites, apps and e-commerce applications ever since. Whiteport is also an innovative agency exploring the boundries of the possible by our own digital projects.</span>
 							We focus on innovative solutions, smooth interfaces, neat and minimalistic design and work according to our own uniqe development approach.
+						</p>
+						<p class="conversation__text conversation__text--mobile">
+							For us in Whiteport, working without the confident boundaries of our method is all but unthinkable and we now wish to share it to the world. Either, hire us for your project and we will offer our services as Strategists, designers, business analysts and developers or teach your organization to become more effective by using our methods.
 						</p>
 						<h6 class="conversation__subtitle">For any inquiries contact us</h6>
 						<p class="conversation__text">Whiteport is operating in Stockholm, Sweden but takes intetnational projects and strategic design challenges.</p>
@@ -655,9 +685,9 @@
 						<a href="https://www.google.com/maps/dir/?api=1&origin&destination=Klubbacken+49,+129+39+Hägersten,+Швеция" class="conversation__link" target="_blank">Klubbacken 49 129 39 Hägersten</a>
 						<a href="mailto:hello@whiteport.com" class="conversation__link">hello@whiteport.com</a>
 					</div>
-					<div class="mb-5 mb-lg-0 order-1 order-lg-2 col-12 col-lg-3 conversation__card">
+					<div class="mb-5 mb-lg-0 order-1 order-lg-2 col-12 col-md-6 col-lg-3 conversation__card">
 						<div class="conversation__img-wrapper">
-							<img src="img/Marten photo 2.jpg" alt="photo" class="conversation__img">
+							<img src="img/Marten photo 1.jpg" alt="photo" class="conversation__img">
 						</div>
 						<div class="conversation__wrapper">
 							<h6 class="conversation__name">Mårten Angner</h6>
@@ -666,9 +696,9 @@
 							<a href="tel:+46707770579" class="conversation__info-link">+46707770579</a>
 						</div>
 					</div>
-					<div class="mb-5 mb-lg-0 order-2 order-lg-3 col-12 col-lg-3 conversation__card">
+					<div class="mb-5 mb-lg-0 order-2 order-lg-3 col-12 col-md-6 col-lg-3 conversation__card">
 						<div class="conversation__img-wrapper">
-							<img src="img/Yuliia Novyk photo_bw 2.jpg" alt="photo" class="conversation__img">
+							<img src="img/Yuliia Novyk photo_bw 1.jpg" alt="photo" class="conversation__img">
 						</div>
 						<div class="conversation__wrapper">
 							<h6 class="conversation__name">Yuliia Novyk</h6>
@@ -681,7 +711,7 @@
 		</section>
 		<footer class="footer">
 			<div class="container">
-				<div class="row d-none d-lg-flex">
+				<div class="row d-none d-xl-flex">
 					<div class="col-10 offset-1">
 						<div class="row">
 							<div class="col-12 d-flex justify-content-between align-items-center">
@@ -698,19 +728,32 @@
 						</div>
 					</div>
 				</div>
-				<div class="row d-lg-none">
-					<div class="col-12 mb-3 mb-md-0 col-md-3 d-flex align-items-center">
+				<div class="row d-md-none">
+					<div class="col-12 mb-3 d-flex align-items-center">
 						<a href="/" class="footer__logo">
 							<img src="img/Logo.svg" alt="logo">
 						</a>
 					</div>
-					<div class="col-12 col-md-9">
+					<div class="col-12">
 						<div class="row">
-							<div class="col-12 col-md-6"><a href="https://www.google.com/maps/dir/?api=1&origin&destination=Klubbacken+49,+129+39+Hägersten,+Швеция" class="footer__link" target="_blank">Klubbacken 49 129 39 Hägesten</a></div>
-							<div class="col-12 mb-3 col-md-6 mb-md-1"><a href="mailto:hello@whiteport.com" class="footer__link footer__link--last">hello@whiteport.com</a></div>
-							<div class="col-12 col-md-6"><span class="footer__item footer__item--grey ">Copyright © Whiteport AB 2016</span></div>
-							<div class="col-12 col-md-6"><span class="footer__item footer__item--grey ">All rights reserved</span></div>
+							<div class="col-12"><a href="https://www.google.com/maps/dir/?api=1&origin&destination=Klubbacken+49,+129+39+Hägersten,+Швеция" class="footer__link" target="_blank">Klubbacken 49 129 39 Hägesten</a></div>
+							<div class="col-12 mb-3"><a href="mailto:hello@whiteport.com" class="footer__link footer__link--last">hello@whiteport.com</a></div>
+							<div class="col-12"><span class="footer__item footer__item--grey ">Copyright © Whiteport AB 2016</span></div>
+							<div class="col-12"><span class="footer__item footer__item--grey ">All rights reserved</span></div>
 						</div>
+					</div>
+				</div>
+				<div class="footer__tablet-row d-none d-md-flex d-xl-none">
+					<a href="/" class="footer__logo">
+						<img src="img/Logo.svg" alt="logo">
+					</a>
+					<div class="footer__col">
+						<a href="https://www.google.com/maps/dir/?api=1&origin&destination=Klubbacken+49,+129+39+Hägersten,+Швеция" class="footer__link" target="_blank">Klubbacken 49 129 39 Hägesten</a>
+						<span class="footer__item footer__item--grey ">Copyright © Whiteport AB 2016</span>
+					</div>
+					<div class="footer__col">
+						<a href="mailto:hello@whiteport.com" class="footer__link footer__link--last">hello@whiteport.com</a>
+						<span class="footer__item footer__item--grey ">All rights reserved</span>
 					</div>
 				</div>
 			</div>
